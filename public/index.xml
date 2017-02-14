@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lithium Theme</title>
+    <title>Recipes, Scripts</title>
     <link>/index.xml</link>
-    <description>Recent content on Lithium Theme</description>
+    <description>Recent content on Recipes, Scripts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Feb 2017 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 May 2017 21:48:51 -0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 05 May 2017 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;We share scripts, ideas, how-tos and related material for genomics and other interests.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
@@ -41,12 +51,136 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <title>Hello blogdown</title>
+      <link>/2017/02/14/hello-blogdown/</link>
+      <pubDate>Tue, 14 Feb 2017 21:13:14 -0500</pubDate>
       
-      <guid>/about/</guid>
-      <description>&lt;p&gt;This is a &amp;ldquo;hello world&amp;rdquo; example website for the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package. The theme was forked from &lt;a href=&#34;https://github.com/jrutheiser/hugo-lithium-theme&#34;&gt;@jrutheiser/hugo-lithium-theme&lt;/a&gt; and modified by &lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;Yihui Xie&lt;/a&gt;.&lt;/p&gt;
+      <guid>/2017/02/14/hello-blogdown/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+
+
+
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. testing out the Rstudio blogdown (&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio/blogdown&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;#####content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/links/</link>
+      <pubDate>Sun, 05 Feb 2017 21:48:51 -0700</pubDate>
+      
+      <guid>/links/</guid>
+      <description>
+
+&lt;h1 id=&#34;relevant-links&#34;&gt;Relevant links&lt;/h1&gt;
+
+&lt;h3 id=&#34;r&#34;&gt;R&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.r-bloggers.com/&#34;&gt;http://www.r-bloggers.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.org&#34;&gt;http://cran.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://had.co.nz/ggplot2/&#34;&gt;http://had.co.nz/ggplot2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zoonek2.free.fr/UNIX/48_R/all.html&#34;&gt;http://zoonek2.free.fr/UNIX/48_R/all.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statmethods.net/index.html&#34;&gt;http://www.statmethods.net/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cpan.org&#34;&gt;http://cpan.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.python.org/moin/PerlPhrasebook&#34;&gt;http://wiki.python.org/moin/PerlPhrasebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.trii.org/courses/intro_python/&#34;&gt;http://www.trii.org/courses/intro_python/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://faculty.vassar.edu/lowry/VassarStats.html&#34;&gt;http://faculty.vassar.edu/lowry/VassarStats.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://udel.edu/~mcdonald/statbigchart.html&#34;&gt;http://udel.edu/~mcdonald/statbigchart.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.statisticsblog.com/&#34;&gt;http://www.statisticsblog.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;sequencing&#34;&gt;Sequencing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://picard.sourceforge.net/explain-flags.html&#34;&gt;http://picard.sourceforge.net/explain-flags.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;parallel-computing&#34;&gt;Parallel Computing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.gridengine.info/wiki/index.php/Simple-Job-Array-Howto&#34;&gt;http://wiki.gridengine.info/wiki/index.php/Simple-Job-Array-Howto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clusterresources.com/torquedocs21/2.1jobsubmission.shtml&#34;&gt;http://www.clusterresources.com/torquedocs21/2.1jobsubmission.shtml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.autonlab.org/tutorials/&#34;&gt;http://www.autonlab.org/tutorials/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vancouverdata.blogspot.com/&#34;&gt;http://vancouverdata.blogspot.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://public.lanl.gov/mewall/kluwer2002.html&#34;&gt;http://public.lanl.gov/mewall/kluwer2002.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ngs&#34;&gt;NGS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.biostars.org/&#34;&gt;https://www.biostars.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://seqanswers.com/&#34;&gt;http://seqanswers.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
