@@ -17,12 +17,15 @@
       <description>&lt;p&gt;I recently discovered Rstudio &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; and this is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) and created via blogdown.&lt;/p&gt;
 
 &lt;p&gt;I have installed the blogdown package along with Hugo, and I followed the
-walkthrough in the following website to set up the blog, choose a theme and
+walkthroughs in the following websites to set up the blog, choose a theme and
 deploy the blog on Github Pages.&lt;/p&gt;
 
-&lt;p&gt;Links:
-- &lt;a href=&#34;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&#34;&gt;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&lt;/a&gt;
-- &lt;a href=&#34;https://proquestionasker.github.io/blog/Making_Site/&#34;&gt;https://proquestionasker.github.io/blog/Making_Site/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&#34;&gt;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://proquestionasker.github.io/blog/Making_Site/&#34;&gt;https://proquestionasker.github.io/blog/Making_Site/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
