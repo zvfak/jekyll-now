@@ -311,7 +311,7 @@
 
 <p>I have installed the blogdown package along with Hugo, and I followed the
 walkthroughs in the following websites to set up the blog, choose a theme and
-deploy the blog on Github Pages.</p>
+deploy the blog on Github Pages.The source code for the blog is here: <a href="https://github.com/zvfak/zvfak.github.io/tree/sources">https://github.com/zvfak/zvfak.github.io/tree/sources</a></p>
 
 <p>Links:</p>
 
@@ -319,6 +319,10 @@ deploy the blog on Github Pages.</p>
 <li><a href="https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html">https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html</a></li>
 <li><a href="https://proquestionasker.github.io/blog/Making_Site/">https://proquestionasker.github.io/blog/Making_Site/</a></li>
 </ul>
+
+<p>However, I had to change one thing in order to make the <code>deploy.sh</code> script
+more <code>.Rmd</code> friendly. I had to introduce <code>R -e &quot;blogdown::build_site()&quot;</code> line
+instead of <code>hugo</code>. This simply builds the site using blogdown function rather than hugo itself.</p>
 
     </div>
 

@@ -19,7 +19,7 @@
 
 &lt;p&gt;I have installed the blogdown package along with Hugo, and I followed the
 walkthroughs in the following websites to set up the blog, choose a theme and
-deploy the blog on Github Pages.&lt;/p&gt;
+deploy the blog on Github Pages.The source code for the blog is here: &lt;a href=&#34;https://github.com/zvfak/zvfak.github.io/tree/sources&#34;&gt;https://github.com/zvfak/zvfak.github.io/tree/sources&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Links:&lt;/p&gt;
 
@@ -27,6 +27,10 @@ deploy the blog on Github Pages.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&#34;&gt;https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://proquestionasker.github.io/blog/Making_Site/&#34;&gt;https://proquestionasker.github.io/blog/Making_Site/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;However, I had to change one thing in order to make the &lt;code&gt;deploy.sh&lt;/code&gt; script
+more &lt;code&gt;.Rmd&lt;/code&gt; friendly. I had to introduce &lt;code&gt;R -e &amp;quot;blogdown::build_site()&amp;quot;&lt;/code&gt; line
+instead of &lt;code&gt;hugo&lt;/code&gt;. This simply builds the site using blogdown function rather than hugo itself.&lt;/p&gt;
 </description>
     </item>
     
